@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
+        <module name="configserver" />
+        <module name="order" />
+        <module name="menu" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aispringclouddemo" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="menu" options="-parameters" />
+      <module name="order" options="-parameters" />
     </option>
   </component>
 </project>
